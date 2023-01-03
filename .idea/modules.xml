@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Ejercicios OpenBootcamp.iml" filepath="$PROJECT_DIR$/Ejercicios OpenBootcamp.iml" />
       <module fileurl="file://$PROJECT_DIR$/Introduccion a la programacion/Introduccion a la programacion.iml" filepath="$PROJECT_DIR$/Introduccion a la programacion/Introduccion a la programacion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java avanzado/Java avanzado.iml" filepath="$PROJECT_DIR$/Java avanzado/Java avanzado.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java basico/Java basico.iml" filepath="$PROJECT_DIR$/Java basico/Java basico.iml" />
     </modules>
   </component>
