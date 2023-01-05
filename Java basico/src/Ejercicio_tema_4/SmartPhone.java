@@ -2,29 +2,26 @@ package Ejercicio_tema_4;
 
 public class SmartPhone extends SmartDevice{
 
-    String bateria;
-    String color;
-    String peso;
-    String procesador;
-    String pantalla;
-    String modelo;
-    String marca;
-    String ram;
+    String sistema;
+    int ram;
 
-    public SmartPhone() {}
-    public SmartPhone(String bateria, String color, String peso, String procesador, String  pantalla, String modelo, String marca, String ram){
+    public SmartPhone() {
+        super();
+    }
+    public SmartPhone( String color, String modelo, String marca, int ram, String sistema){
 
-        this.bateria = bateria;
-        this.color = color;
-        this.peso = peso;
-        this.procesador = procesador;
-        this.pantalla = pantalla;
-        this.modelo = modelo;
-        this.marca = marca;
+
+        super(color, modelo, marca);
         this.ram = ram;
+        this.sistema = sistema;
     }
 
-
-
-
+    @Override
+    public String toString() {
+        return "marca: " + marca +
+                ", modelo: " + modelo +
+                ", color: " + color +
+                ", ram: " + ram +
+                ", sistema: " + sistema;
+    }
 }

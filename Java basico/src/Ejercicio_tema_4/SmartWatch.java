@@ -2,28 +2,25 @@ package Ejercicio_tema_4;
 
 public class SmartWatch extends SmartDevice{
 
-    String bateria;
-    String color;
-    String peso;
-    String procesador;
-    String pantalla;
-    String modelo;
-    String marca;
-    String ram;
-    String profundimetro;
+    double pulgadas;
+    String conectividad;
 
-    public SmartWatch(){}
+    public SmartWatch() {
+        super();
+    }
 
-    public SmartWatch(String bateria,String color,String peso, String modelo, String pantalla, String procesador, String marca, String ram, String profundimetro){
-        this.bateria = bateria;
-        this.color = color;
-        this.peso = peso;
-        this.modelo = modelo;
-        this.pantalla = pantalla;
-        this.procesador = procesador;
-        this.marca = marca;
-        this.ram = ram;
-        this.profundimetro = profundimetro;
+    public SmartWatch(String marca, String modelo, String color, double pulgadas, String conectividad) {
+        super(marca, modelo, color);
+        this.pulgadas = pulgadas;
+        this.conectividad = conectividad;
+    }
 
+    @Override
+    public String toString() {
+        return "marca: " + marca +
+                ", modelo: " + modelo +
+                ", color: " + color +
+                ", pulgadas: " + pulgadas +
+                ", conectividad: " + conectividad;
     }
 }
