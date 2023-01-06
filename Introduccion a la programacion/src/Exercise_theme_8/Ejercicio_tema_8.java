@@ -1,4 +1,4 @@
-package Ejercicio_tema_8;
+package Exercise_theme_8;
 
 public class Ejercicio_tema_8 {
     public static void main(String[] args) throws Exception {

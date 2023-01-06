@@ -1,4 +1,4 @@
-package Ejercicio_tema_4;
+package Exercise_theme_4;
 
 public class SmartDevice {
 
@@ -23,14 +23,6 @@ public class SmartDevice {
                 3.5, "Bluetooth");
 
         System.out.println("El smartphone es: " + smartPhone + "\nEl smartwatch es: " + smartWatch);
-
-
-
-
-
-
-
-
 
     }
 }

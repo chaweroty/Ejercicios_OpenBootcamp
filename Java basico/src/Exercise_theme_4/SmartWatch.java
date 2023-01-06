@@ -1,4 +1,4 @@
-package Ejercicio_tema_4;
+package Exercise_theme_4;
 
 public class SmartWatch extends SmartDevice{
 

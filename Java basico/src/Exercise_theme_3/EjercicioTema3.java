@@ -1,4 +1,4 @@
-package Ejercicio_tema_3;
+package Exercise_theme_3;
 
 public class EjercicioTema3 {
 
